@@ -6,7 +6,7 @@ import { columns } from "./table/columns";
 import { RotateCounterClockwiseIcon } from "@radix-ui/react-icons";
 import CustomTable from "../components/table/table";
 
-export default function RootLayout({}: {}) {
+export default function Users({}: {}) {
   const [loading, setLoading] = useState(true);
   const [users, setUsers] = useState([]);
 

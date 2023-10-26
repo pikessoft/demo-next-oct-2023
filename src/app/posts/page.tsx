@@ -6,7 +6,7 @@ import { RotateCounterClockwiseIcon } from "@radix-ui/react-icons";
 import { getPosts } from "../../api/posts/posts";
 import CustomTable from "../components/table/table";
 
-export default function RootLayout({}: {}) {
+export default function Posts({}: {}) {
   const [loading, setLoading] = useState(true);
   const [posts, setPosts] = useState([]);
 
